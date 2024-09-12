@@ -1,0 +1,14 @@
+name: "aws_cloudtrail_test"
+
+# Optional: Properties for managed log sources
+managed:
+  # The identifier of the managed log source
+  type: "AWS_CLOUDTRAIL"
+  # Map of string values for managed log source configuration
+  properties: {}
+
+ingest:
+  # Custom: Optionally bring your own bucket
+  s3_source:
+    # Name of existing S3 Bucket to use as a source
+    bucket_name: "aws-cloudtrail-logs-533267073284-c3829417"

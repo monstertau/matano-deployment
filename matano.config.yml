@@ -1,0 +1,10 @@
+# Use this file for Matano configuration.
+
+aws:
+  account: "533267073284" # Specify the AWS account to deploy to.
+  region: "us-east-1" # Specify the AWS region to deploy to.
+
+  # Optionally, specify any tags to apply to the deployed resources.
+  # tags:
+  #   key: "my_tag"
+
